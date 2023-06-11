@@ -57,10 +57,10 @@ body {
 
 @keyframes text-shadow-drop-center {
     0% {
-        text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        text-shadow: 0 0 0 rgba(99, 17, 200, 0);
     }
 
     100% {
-        text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+        text-shadow: 0 0 18px rgba(10, 38, 181, 0.508);
     }
 }
