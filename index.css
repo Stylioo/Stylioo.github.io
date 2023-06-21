@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Annie Use Your Telescope', cursive;
+    user-select: none;
 }
 
 .welcome {
@@ -51,6 +52,46 @@ body {
 .icon:hover {
     filter: invert(1) brightness(1);
     cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.buttons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 125px;
+    font-weight: 700;
+}
+
+.buttons a:hover {
+    background: #fff;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.buttons a:nth-child(2):hover {
+    background: #0078d4;
+    border: 1px solid #0078d4;
+    color: #ffffff;
+}
+
+.buttons a:nth-child(3):hover {
+    background: #34a853;
+    border: 1px solid #34a853;
+    color: #ffffff;
 }
 
 .text-shadow-drop-center {}
